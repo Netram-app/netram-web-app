@@ -16,6 +16,7 @@ export const Nav = () => {
           >
             
             <img src='https://static.wixstatic.com/media/af5c61_a9eb57bceac846ffa114e934df061b77~mv2.jpg/v1/fill/w_96,h_33,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Netram%20Logo.jpg' className='rounded' alt="logo" style={{ width: '130px',  }} loading="lazy"></img>
+            
           </Link>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>

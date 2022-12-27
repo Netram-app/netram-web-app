@@ -13,7 +13,7 @@ export const Footer = () => {
             class="inline-flex items-center"
           >
             
-            <img src='https://react-klenar.netlify.app/assets/img/logo/logo-white.png' alt="logo" style={{ width: '130px',  }} loading="lazy"></img>
+            <img src='https://static.wixstatic.com/media/af5c61_a9eb57bceac846ffa114e934df061b77~mv2.jpg/v1/fill/w_96,h_33,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Netram%20Logo.jpg' className="rounded" alt="logo" style={{ width: '130px',  }} loading="lazy"></img>
           </Link>
           <div className="mt-4 lg:max-w-sm">
             <p className="text-lg text-white">
@@ -201,7 +201,7 @@ export const Footer = () => {
         </p>
         <div className="flex items-center mt-4 space-x-4 sm:mt-0">
           <a
-            href="/"
+            href="https://mobile.twitter.com/netrameyecentre"
             className="text-gray-500 transition-colors duration-300 hover:text-yellow-400"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -209,7 +209,7 @@ export const Footer = () => {
             </svg>
           </a>
           <a
-            href="/"
+            href="https://www.instagram.com/netrameyefoundation/?hl=en"
             className="text-gray-500 transition-colors duration-300 hover:text-yellow-400"
           >
             <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -218,7 +218,7 @@ export const Footer = () => {
             </svg>
           </a>
           <a
-            href="/"
+            href="https://www.facebook.com/netrameyefoundation/"
             className="text-gray-500 transition-colors duration-300 hover:text-yellow-400"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">

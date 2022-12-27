@@ -10,6 +10,8 @@ import { Team } from "./team";
 
 
 export const Header = () => {
+
+  
   return (
     <>
     <div className="relative">
@@ -46,7 +48,7 @@ export const Header = () => {
                       Your Full Name
                     </label>
                     <input
-                      placeholder="John"
+                      placeholder="Name"
                       required
                       type="text"
                       className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
@@ -118,6 +120,7 @@ export const Header = () => {
 
                   <div className="mt-4 mb-2 sm:mb-4">
                     <button
+                      onClick={() => alert(" Appointment booked!")}
                       type="submit"
                       className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-yellow-400 hover:bg-yellow-300 focus:shadow-outline focus:outline-none"
                     >
